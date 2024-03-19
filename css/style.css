@@ -4,6 +4,8 @@
     justify-content: center;
     background: linear-gradient(0deg, #BFDFDF, #84B0B0);
     border: #000 3px solid;
+    width: 50%;
+    height: 75%;
 }
 
 .imgcontainer 
