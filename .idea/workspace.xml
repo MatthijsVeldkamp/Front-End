@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 3 - GameCatolog Toegevoegd en klaar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - [-_-] en meer programma's geupdate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,6 +44,7 @@
   <component name="ProjectId" id="2dtn6LEBnOU7A33G6Y7dKSG5HD7" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,6 +53,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Namen.html.executor": "Run",
+    "JavaScript Debug.Piramide Aflopend.html.executor": "Run",
+    "JavaScript Debug.Piramide.html.executor": "Run",
+    "JavaScript Debug.Rekenen.html.executor": "Run",
+    "JavaScript Debug.Tafels.html.executor": "Run",
+    "Node.js.Fibonacci Reeks.js.executor": "Run",
+    "Node.js.Namen.js.executor": "Debug",
+    "Node.js.Rekenen.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -87,7 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1710836067212</updated>
       <workItem from="1710836069043" duration="2010000" />
-      <workItem from="1710839157185" duration="7129000" />
+      <workItem from="1710839157185" duration="7248000" />
+      <workItem from="1710846476454" duration="1913000" />
+      <workItem from="1710849056842" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -145,7 +148,55 @@
       <option name="project" value="LOCAL" />
       <updated>1710845711348</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lab 3 - Error Hunting gaat door">
+      <option name="closed" value="true" />
+      <created>1710846378395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846378395</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dingen modified">
+      <option name="closed" value="true" />
+      <created>1710849100755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849100755</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dingen modified">
+      <option name="closed" value="true" />
+      <created>1710849121813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849121813</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lab 1 - Fibonacci Reeks in JS">
+      <option name="closed" value="true" />
+      <created>1710849523087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849523087</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates">
+      <option name="closed" value="true" />
+      <created>1710849925925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849925925</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Lab 2 - [-_-] en meer programma's geupdate">
+      <option name="closed" value="true" />
+      <created>1710852484224</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710852484224</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +207,11 @@
     <MESSAGE value="Lab 2 - updates recept gehaktbrood" />
     <MESSAGE value="Lab 2 - Final update GehaktBrood" />
     <MESSAGE value="Lab 3 - GameCatolog Toegevoegd en klaar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 3 - GameCatolog Toegevoegd en klaar" />
+    <MESSAGE value="Lab 3 - Error Hunting gaat door" />
+    <MESSAGE value="Dingen modified" />
+    <MESSAGE value="Lab 1 - Fibonacci Reeks in JS" />
+    <MESSAGE value="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates" />
+    <MESSAGE value="Lab 2 - [-_-] en meer programma's geupdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 - [-_-] en meer programma's geupdate" />
   </component>
 </project>

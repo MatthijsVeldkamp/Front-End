@@ -11,6 +11,9 @@ body {
     color: #333;
     background-color: #f0f0f0;
 }
+#reviews {
+    font-family: "Times New Roman", Times, serif;
+}
 
 /* Header styles */
 header {
@@ -74,49 +77,43 @@ footer {
     width: 100%;
 }
 
-/* Hamburger icon styles */
-#hamburger-icon {
-    cursor: pointer;
-    width: 30px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
 }
 
-#hamburger-icon div {
-    width: 100%;
-    height: 4px;
-    background-color: white;
-}
-
-/* Navigation menu styles */
-#nav-menu {
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Style navigation menu links */
+.topnav a {
     color: white;
-    padding: 50px;
-    z-index: 1000;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-}
-
-#nav-menu.open {
-    transform: translateY(0);
-}
-
-#nav-menu ul {
-    list-style-type: none;
-}
-
-#nav-menu ul li a {
-    color: white;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
 
-/* End of CSS */
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+}

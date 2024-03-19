@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array met tafels</title>
+</head>
+<body>
+
+<script>
+    // Definieer een array met de gewenste tafels
+    var tafelArray = [2, 4, 6, 8];
+
+    // Functie om tafels naar het scherm te schrijven
+    function printTafels() {
+        // Maak een variabele voor de uitvoer
+        var output = "Array met tafels:\n\n";
+
+        // Loop door de array en genereer de tafels
+        for (var i = 0; i < tafelArray.length; i++) {
+            output += "Tafel van " + tafelArray[i] + ":\n";
+            for (var j = 1; j <= 10; j++) {
+                output += tafelArray[i] + " x " + j + " = " + (tafelArray[i] * j) + "\n";
+            }
+            output += "\n";
+        }
+
+        // Schrijf de uitvoer naar het scherm
+        document.write("<pre>" + output + "</pre>");
+    }
+
+    // Roep de functie aan om de tafels naar het scherm te schrijven
+    printTafels();
+</script>
+
+</body>
+</html>
