@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 3 - Error Hunting gaat door">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" afterDir="false" />
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Dingen modified">
+      <change afterPath="$PROJECT_DIR$/Javascript/Fibonacci Reeks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +83,7 @@
       <workItem from="1710836069043" duration="2010000" />
       <workItem from="1710839157185" duration="7248000" />
       <workItem from="1710846476454" duration="1913000" />
+      <workItem from="1710849056842" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -154,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710846378395</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dingen modified">
+      <option name="closed" value="true" />
+      <created>1710849100755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849100755</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dingen modified">
+      <option name="closed" value="true" />
+      <created>1710849121813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849121813</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +177,7 @@
     <MESSAGE value="Lab 2 - Final update GehaktBrood" />
     <MESSAGE value="Lab 3 - GameCatolog Toegevoegd en klaar" />
     <MESSAGE value="Lab 3 - Error Hunting gaat door" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 3 - Error Hunting gaat door" />
+    <MESSAGE value="Dingen modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dingen modified" />
   </component>
 </project>
