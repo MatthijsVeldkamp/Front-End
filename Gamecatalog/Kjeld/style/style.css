@@ -1,9 +1,18 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
 body {
     font-family: sans-serif;
-    color: black;
+    color: #333;
     background-color: #f0f0f0;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: white;
@@ -11,6 +20,7 @@ header {
     text-align: center;
 }
 
+/* Navigation styles */
 nav {
     background-color: #ddd;
     padding: 10px;
@@ -28,19 +38,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
+/* Main styles */
 main {
-    width: 1000px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3 {
-    font-size: 23px;
+    font-size: 1.5rem;
 }
 
 section p {
@@ -48,10 +59,11 @@ section p {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
+/* Footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -62,6 +74,7 @@ footer {
     width: 100%;
 }
 
+/* Hamburger icon styles */
 #hamburger-icon {
     cursor: pointer;
     width: 30px;
@@ -77,9 +90,10 @@ footer {
     background-color: white;
 }
 
+/* Navigation menu styles */
 #nav-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -87,6 +101,13 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 50px;
+    z-index: 1000;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+#nav-menu.open {
+    transform: translateY(0);
 }
 
 #nav-menu ul {
@@ -98,22 +119,4 @@ footer {
     text-decoration: none;
 }
 
-
-#game-info {
-    display: flex;
-    justify-content: space-between;
-}
-
-#game-name-synopsis {
-    width: 50%;
-    border: 1px solid black;
-    padding: 10px;
-}
-
-#game-details {
-    width: 40%;
-}
-
-#game-image, #system-requirements, #reviews {
-    margin-top: 20px;
-}
+/* End of CSS */
