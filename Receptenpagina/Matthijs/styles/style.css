@@ -21,7 +21,7 @@ body
 }
 .thincontainer
 {
-    width: 750px;
+    width: 650px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -35,4 +35,47 @@ body
 .thincontainer ul li
 {
     padding: 10px 0;
+}
+.space
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container
+{
+    padding: 20px;
+}
+
+.container ol
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container li
+{
+    padding: 10px 0;
+}
+
+img
+{
+    width: 75%;
+}
+
+.greenrec
+{
+    display: flex;
+    width: 110%;
+    background: #E0F6ED;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;  
+    align-items: center;
+}
+#tip
+{
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 17px;
 }
