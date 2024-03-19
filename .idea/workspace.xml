@@ -7,7 +7,8 @@
     <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - updates recept gehaktbrood">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KrantenArtikel/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/KrantenArtikel/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Receptenpagina/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Receptenpagina/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Receptenpagina/Kjeld/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Receptenpagina/Kjeld/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Receptenpagina/Kjeld/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Receptenpagina/Kjeld/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kjult/OneDrive/Bureaublad/Front-Back-End&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Kjult/OneDrive/Bureaublad/Front-Back-End/Receptenpagina/Kjeld",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kjult\OneDrive\Bureaublad\Front-Back-End\Receptenpagina\Kjeld" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710836067212</updated>
       <workItem from="1710836069043" duration="2010000" />
-      <workItem from="1710839157185" duration="870000" />
+      <workItem from="1710839157185" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -95,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710839527965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab 2 - updates recept gehaktbrood">
+      <option name="closed" value="true" />
+      <created>1710840386549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710840386550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
