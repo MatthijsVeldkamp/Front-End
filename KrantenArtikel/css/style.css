@@ -12,6 +12,9 @@
 {
     padding: 20px;
 }
+hr.solid {
+    border-top: 3px solid #bbb;
+}
 img
 {
     border: solid 2px #000;

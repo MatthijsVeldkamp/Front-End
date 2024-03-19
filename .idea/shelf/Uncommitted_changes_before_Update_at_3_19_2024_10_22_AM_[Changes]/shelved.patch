@@ -1,0 +1,18 @@
+Index: Receptenpagina/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Receptenpagina</title>\r\n    <link rel=\"stylesheet\" href=\"styles/style.css\">\r\n</head>\r\n<body>\r\n    <h1>Gehaktbrood</h1>\r\n    <div class=\"seperator\"></div>\r\n</body>\r\n</html>
+===================================================================
+diff --git a/Receptenpagina/index.html b/Receptenpagina/index.html
+--- a/Receptenpagina/index.html	
++++ b/Receptenpagina/index.html	
+@@ -8,6 +8,7 @@
+ </head>
+ <body>
+     <h1>Gehaktbrood</h1>
+-    <div class="seperator"></div>
++    <br>
++    <hr class="solid">
+ </body>
+ </html>
+\ No newline at end of file
