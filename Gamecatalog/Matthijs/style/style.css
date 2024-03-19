@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 }
 
 @keyframes fadein
@@ -126,15 +127,28 @@ body
     justify-content: center;
     border: 2px solid #FFF;
     border-radius: 15px;
-    height: 250px;
+    height: auto;
     width: 80%;
     padding: 20px;
     backdrop-filter: blur(10px);
     z-index: 5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.420);
 }
 
 .seperator
 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 5;
+}
+
+.table
+{
+    display: flex;
+    flex-direction: column;
     width: 80%;
     display: flex;
     justify-content: space-between;
