@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
+    <div class="header">
         <div class="headeritem">
-            <h2>Minecraft</h2>
+            <button><h2 id="minecraft">Minecraft</h2></button>
         </div>
         <div class="headeritem">
-            <h2>Boneworks</h2>
+            <button><h2 id="boneworks">Boneworks</h2></button>
         </div>
         <div class="headeritem">
-            <h2>Portal 2</h2>
+            <button><h2 id="portal2">Portal 2</h2></button>
         </div>
-    </header>
+    </div>
+    <div class="seperator"></div>
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/mc.mp4" type="video/mp4">
+      </video>
+    <script src="script/header.js"></script>
 </body>
 </html>

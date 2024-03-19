@@ -7,7 +7,138 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+@keyframes fadein
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    100%
+    {
+        opacity: 0.4;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes fadeout
+{
+    0%
+    {
+        opacity: 0.4;
+        transform: translateY(0);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+
+}
+
+@keyframes fadeincontainer
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+}
+
+@keyframes fadeoutcontainer
+{
+    0%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+}
 body
 {
-    background: 121212;
+    background: #232323;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.header
+{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    z-index: 5;
+}
+
+.headeritem
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+}
+.headeritem button
+{
+    background: #00000000;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    z-index: 5;
+}
+#myVideo {
+    opacity: 0.3;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    height: 250px;
+    width: 80%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 5;
+}
+
+.seperator
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 5;
 }
