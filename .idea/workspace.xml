@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - updates recept gehaktbrood">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KrantenArtikel/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/KrantenArtikel/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Receptenpagina/Kjeld/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Receptenpagina/Kjeld/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Receptenpagina/Kjeld/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Receptenpagina/Kjeld/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - Final update GehaktBrood" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710836067212</updated>
       <workItem from="1710836069043" duration="2010000" />
-      <workItem from="1710839157185" duration="2853000" />
+      <workItem from="1710839157185" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -109,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710840386550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab 2 - Final update GehaktBrood">
+      <option name="closed" value="true" />
+      <created>1710842064409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710842064409</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab 1 - KrantenArtikel ingeleverd" />
     <MESSAGE value="Lab 2 - updates recept gehaktbrood" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 - updates recept gehaktbrood" />
+    <MESSAGE value="Lab 2 - Final update GehaktBrood" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 - Final update GehaktBrood" />
   </component>
 </project>
