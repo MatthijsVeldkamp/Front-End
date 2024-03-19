@@ -1,12 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburgerIcon = document.getElementById('hamburger-icon');
-    const navMenu = document.getElementById('nav-menu');
-
-    hamburgerIcon.addEventListener('click', function () {
-        // Toggle 'open' class on hamburger icon
-        hamburgerIcon.classList.toggle('open');
-
-        // Toggle 'open' class on navigation menu
-        navMenu.classList.toggle('open');
-    });
-});
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}

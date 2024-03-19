@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 3 - GameCatolog Toegevoegd en klaar">
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 3 - Error Hunting gaat door">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/cs2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/eurotrucksimulator2.html" afterDir="false" />
@@ -57,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Kjult/OneDrive/Bureaublad/Front-Back-End/Receptenpagina/Kjeld",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kjult/OneDrive/Bureaublad/Front-Back-End/Receptenpagina/Kjeld&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kjult\OneDrive\Bureaublad\Front-Back-End\Receptenpagina\Kjeld" />
@@ -87,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1710836067212</updated>
       <workItem from="1710836069043" duration="2010000" />
-      <workItem from="1710839157185" duration="7129000" />
+      <workItem from="1710839157185" duration="7248000" />
+      <workItem from="1710846476454" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -145,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710845711348</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lab 3 - Error Hunting gaat door">
+      <option name="closed" value="true" />
+      <created>1710846378395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846378395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +165,7 @@
     <MESSAGE value="Lab 2 - updates recept gehaktbrood" />
     <MESSAGE value="Lab 2 - Final update GehaktBrood" />
     <MESSAGE value="Lab 3 - GameCatolog Toegevoegd en klaar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 3 - GameCatolog Toegevoegd en klaar" />
+    <MESSAGE value="Lab 3 - Error Hunting gaat door" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 3 - Error Hunting gaat door" />
   </component>
 </project>
