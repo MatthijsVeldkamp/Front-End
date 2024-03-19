@@ -6,10 +6,15 @@
     border: #000 3px solid;
 }
 
-.imgcontainer {
+.imgcontainer 
+{
     padding: 20px;
 }
-.imgcontainer 
+img
+{
+    border: solid 2px #000;
+    margin: 15px;
+}
 .float-left
 {
     float: left;
