@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 1 - Fibonacci Reeks in JS">
-      <change afterPath="$PROJECT_DIR$/Javascript/Dagen/Dagn.js" afterDir="false" />
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates">
+      <change afterPath="$PROJECT_DIR$/Javascript/Namen/Namen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Piramide Aflopend/Piramide Aflopend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Piramide/Piramide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Rekenen/Rekenen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/Tafels/Tafels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +51,7 @@
   <component name="ProjectId" id="2dtn6LEBnOU7A33G6Y7dKSG5HD7" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,7 +60,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Namen.html.executor": "Run",
+    "JavaScript Debug.Piramide.html.executor": "Run",
+    "JavaScript Debug.Rekenen.html.executor": "Run",
+    "JavaScript Debug.Tafels.html.executor": "Run",
     "Node.js.Fibonacci Reeks.js.executor": "Run",
+    "Node.js.Namen.js.executor": "Debug",
+    "Node.js.Rekenen.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -84,7 +96,7 @@
       <workItem from="1710836069043" duration="2010000" />
       <workItem from="1710839157185" duration="7248000" />
       <workItem from="1710846476454" duration="1913000" />
-      <workItem from="1710849056842" duration="792000" />
+      <workItem from="1710849056842" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />
@@ -174,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710849523087</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates">
+      <option name="closed" value="true" />
+      <created>1710849925925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849925925</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +208,7 @@
     <MESSAGE value="Lab 3 - Error Hunting gaat door" />
     <MESSAGE value="Dingen modified" />
     <MESSAGE value="Lab 1 - Fibonacci Reeks in JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 1 - Fibonacci Reeks in JS" />
+    <MESSAGE value="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 - Fibonacci Reeks update + [-_-] en meer updates" />
   </component>
 </project>

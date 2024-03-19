@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array operaties</title>
+</head>
+<body>
+
+<script>
+    var arrayEen = [1,2,3,4,5,6,7,8,9,10];
+    var arrayTwee = [2,4,6,8,10,12,14,16,18,20];
+
+    function optellen(array1, array2) {
+        document.write("<h2>Optellen</h2>");
+        for (var i = 0; i < array1.length; i++) {
+            document.write(array1[i] + " + " + array2[i] + " = " + (array1[i] + array2[i]) + "<br>");
+        }
+    }
+
+    function aftrekken(array1, array2) {
+        document.write("<h2>Aftrekken</h2>");
+        for (var i = 0; i < array1.length; i++) {
+            document.write(array2[i] + " - " + array1[i] + " = " + (array2[i] - array1[i]) + "<br>");
+        }
+    }
+
+    function vermenigvuldigen(array1, array2) {
+        document.write("<h2>Vermenigvuldigen</h2>");
+        for (var i = 0; i < array1.length; i++) {
+            document.write(array1[i] + " * " + array2[i] + " = " + (array1[i] * array2[i]) + "<br>");
+        }
+    }
+
+    function delen(array1, array2) {
+        document.write("<h2>Delen</h2>");
+        for (var i = 0; i < array1.length; i++) {
+            document.write(array2[i] + " / " + array1[i] + " = " + (array2[i] / array1[i]) + "<br>");
+        }
+    }
+
+    // Uitvoeren van de functies
+    optellen(arrayEen, arrayTwee);
+    aftrekken(arrayEen, arrayTwee); // Correctie: Moet arrayEen van arrayTwee aftrekken
+    vermenigvuldigen(arrayEen, arrayTwee);
+    delen(arrayEen, arrayTwee); // Correctie: Moet arrayEen door arrayTwee delen
+</script>
+
+</body>
+</html>
