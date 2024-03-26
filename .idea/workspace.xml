@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - [-_-] en meer programma's geupdate" />
+    <list default="true" id="e00f1cfc-52a2-46ef-8e74-4f6e61875a25" name="Changes" comment="Lab 2 - [-_-] en meer programma's geupdate">
+      <change afterPath="$PROJECT_DIR$/Javascript/Dagen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/minecraft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gamecatalog/Kjeld/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/Dagen/Dagen.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/Dagen/Dagen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/Fibonacci Reeks/Fibonacci Reeks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/Fibonacci Reeks/Fibonacci Reeks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/Namen/Namen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/Namen/Namen.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +66,8 @@
     "JavaScript Debug.Piramide.html.executor": "Run",
     "JavaScript Debug.Rekenen.html.executor": "Run",
     "JavaScript Debug.Tafels.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.Dagen.js.executor": "Run",
     "Node.js.Fibonacci Reeks.js.executor": "Run",
     "Node.js.Namen.js.executor": "Debug",
     "Node.js.Rekenen.js.executor": "Run",
@@ -71,6 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +102,10 @@
       <workItem from="1710839157185" duration="7248000" />
       <workItem from="1710846476454" duration="1913000" />
       <workItem from="1710849056842" duration="3425000" />
+      <workItem from="1710923742334" duration="623000" />
+      <workItem from="1711367762502" duration="228000" />
+      <workItem from="1711368001385" duration="1653000" />
+      <workItem from="1711443339180" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1 - KrantenArtikel ingeleverd">
       <option name="closed" value="true" />

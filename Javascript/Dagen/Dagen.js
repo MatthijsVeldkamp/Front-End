@@ -22,25 +22,25 @@ function weekenddagen(dagenArray) {
 }
 
 // Kopje h2 "Alle dagen van de week zijn:"
-console.log("<h2>Alle dagen van de week zijn:</h2>");
-console.log(formatDagenVanDeWeek(dagenVanDeWeek));
+document.write("<h2>Alle dagen van de week zijn:</h2>");
+document.write(formatDagenVanDeWeek(dagenVanDeWeek));
 
 // Kopje h2 "De werkdagen zijn:"
-console.log("<h2>De werkdagen zijn:</h2>");
-console.log(formatDagenVanDeWeek(werkdagen(dagenVanDeWeek)));
+document.write("<h2>De werkdagen zijn:</h2>");
+document.write(formatDagenVanDeWeek(werkdagen(dagenVanDeWeek)));
 
 // Kopje h2 "De weekenddagen zijn:"
-console.log("<h2>De weekenddagen zijn:</h2>");
-console.log(formatDagenVanDeWeek(weekenddagen(dagenVanDeWeek)));
+document.write("<h2>De weekenddagen zijn:</h2>");
+document.write(formatDagenVanDeWeek(weekenddagen(dagenVanDeWeek)));
 
 // Kopje h2 "Alle dagen van de week in omgekeerde volgorde zijn:"
-console.log("<h2>Alle dagen van de week in omgekeerde volgorde zijn:</h2>");
-console.log(formatDagenVanDeWeek(omgekeerdeVolgorde(dagenVanDeWeek)));
+document.write("<h2>Alle dagen van de week in omgekeerde volgorde zijn:</h2>");
+document.write(formatDagenVanDeWeek(omgekeerdeVolgorde(dagenVanDeWeek)));
 
 // Kopje h2 "De werkdagen in omgekeerde volgorde zijn:"
-console.log("<h2>De werkdagen in omgekeerde volgorde zijn:</h2>");
-console.log(formatDagenVanDeWeek(omgekeerdeVolgorde(werkdagen(dagenVanDeWeek))));
+document.write("<h2>De werkdagen in omgekeerde volgorde zijn:</h2>");
+document.write(formatDagenVanDeWeek(omgekeerdeVolgorde(werkdagen(dagenVanDeWeek))));
 
 // Kopje h2 "De weekenddagen in omgekeerde volgorde zijn:"
-console.log("<h2>De weekenddagen in omgekeerde volgorde zijn:</h2>");
-console.log(formatDagenVanDeWeek(omgekeerdeVolgorde(weekenddagen(dagenVanDeWeek))));
+document.write("<h2>De weekenddagen in omgekeerde volgorde zijn:</h2>");
+document.write(formatDagenVanDeWeek(omgekeerdeVolgorde(weekenddagen(dagenVanDeWeek))));

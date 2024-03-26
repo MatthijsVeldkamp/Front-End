@@ -1,4 +1,3 @@
-// Functie om de Fibonacci-reeks te genereren
 function fibonacci(n) {
     var fibArray = []; // Array om de Fibonacci-getallen op te slaan
 

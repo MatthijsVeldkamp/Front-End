@@ -7,35 +7,29 @@
 </head>
 <body>
 <script>
-    var names = []; // Maak een lege array voor de namen
+    function vraagNamen() {
+        let aantalNamen = prompt('Hoeveel namen wilt u in de array stoppen? (minimaal 3)');
 
-    var addedNames = 0; // Houd het aantal toegevoegde namen bij
-
-    while (addedNames < 3) {
-        var name = prompt("Voer naam " + (addedNames + 1) + " in:");
-        if (name) { // Controleer of de invoer niet leeg is
-            names.push(name);
-            addedNames++; // Tel het aantal toegevoegde namen op
-        } else {
-            alert("Voer een geldige naam in.");
+        if (aantalNamen < 3) {
+            alert('Het aantal namen moet minimaal 3 zijn.');
+            return;
         }
+
+        let namenArray = [];
+
+        for (let i = 0; i < aantalNamen; i++) {
+            let naam = prompt('Voer naam ' + (i + 1) + ' in:');
+            namenArray.push(naam);
+        }
+
+        document.write('<h2>De ingevoerde namen in de array zijn:</h2>');
+        document.write(namenArray.join(', '));
+
+        document.write('<h2>De ingevoerde namen in de array in omgekeerde volgorde zijn:</h2>');
+        document.write(namenArray.reverse().join(', '));
     }
 
-    // Toon de ingevoerde namen op het scherm
-    document.write("<h2>De ingevoerde namen in de array zijn:</h2>");
-    document.write("<ul>");
-    for (var i = 0; i < names.length; i++) {
-        document.write("<li>" + names[i] + "</li>");
-    }
-    document.write("</ul>");
-
-    // Toon de ingevoerde namen in omgekeerde volgorde op het scherm
-    document.write("<h2>De ingevoerde namen in de array in omgekeerde volgorde zijn:</h2>");
-    document.write("<ul>");
-    for (var i = names.length - 1; i >= 0; i--) {
-        document.write("<li>" + names[i] + "</li>");
-    }
-    document.write("</ul>");
+    vraagNamen();
 </script>
 </body>
 </html>
