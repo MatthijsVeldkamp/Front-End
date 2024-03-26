@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamecatalog</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="header">
         <div class="headeritem">
-            <button><h2 id="minecraft">Minecraft</h2></button>
+            <div id="minecraft"><button id="nobg"><h1>Minecraft</h1></button></div>
         </div>
         <div class="headeritem">
-            <button><h2 id="boneworks">Boneworks</h2></button>
+            <div id="boneworks"><button id="nobg"><h1>Boneworks</h1></button></div>
         </div>
         <div class="headeritem">
-            <button><h2 id="portal2">Portal 2</h2></button>
+            <div id="portal2"><button id="nobg"><h1>Portal 2</h1></button></div>
+        </div>
+        <div class="headeritem">
+            <div id="gamepicker"><button id="nobg"><h1>GamePicker</h1></button></div>
+        </div>
+        <div id="back"></div>
+    </div>
+    <div class="container">
+        <div id="no-side-border" class="infoblock">
+            <h1>Welkom</h1>
+            <p>Kies hierboven een van de games, daarna kun je er info over bekijken.</p>
         </div>
     </div>
-    <div class="seperator"></div>
-    <video autoplay muted loop id="myVideo">
-        <source src="assets/mc.mp4" type="video/mp4">
-      </video>
-    <script src="script/header.js"></script>
+    <div class="footer">
+        <h1 id="copyright"></h1>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

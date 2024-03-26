@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aflopende Pyramide</title>
+    <script>
+        function printAflopendePyramide() {
+            // Vraag de gebruiker om een getal in te voeren
+            var getal = parseInt(prompt("Voer een getal in:"));
+
+            // Maak een array aan met getallen van 0 t/m het opgegeven getal
+            var array = Array.from({length: getal + 1}, (_, i) => i);
+
+            // Maak een lege string om de pyramide in op te slaan
+            var result = '';
+
+            // Loop door de array en bouw de aflopende pyramide op
+            for (var i = 0; i <= getal; i++) {
+                result += array.slice(0, getal - i + 1).join('') + '<br>';
+            }
+
+            // Toon de aflopende pyramide op de pagina
+            document.getElementById('output').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+<h2>Aflopende Pyramide</h2>
+<button onclick="printAflopendePyramide()">Genereer Pyramide</button>
+<div id="output"></div>
+</body>
+</html>
